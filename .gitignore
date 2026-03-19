@@ -1,0 +1,46 @@
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environment ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Flask / SQLite ────────────────────────────────────────────────────
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Environment variables ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Celery ────────────────────────────────────────────────────────────
+celerybeat-schedule
+celerybeat.pid
+
+# ── Exports (generated CSV files) ────────────────────────────────────
+backend/exports/
+
+# ── OS / Editor ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ─────────────────────────────────────────────────────────────
+*.log
+logs/
